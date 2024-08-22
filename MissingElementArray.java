@@ -2,10 +2,10 @@ public class MissingElementArray {
 
       public int missingElement(int n, int arr[])
       {
-       /** To find the missing element in the array, you can use a mathematical approach that leverages the sum of the first n natural numbers. The sum of the first n natural numbers is given by the formula:
+       /** To find the missing element in the array, use a mathematical approach that leverages the sum of the first n natural numbers. The formula gives the sum of the first n natural numbers:
         *  totalsum = n* (n+1)/2
         *
-        *  To find missin number - collect ArraySum and subtract totalsum from it
+        *  To find missing number - collect ArraySum and subtract total sum from it
         *  arraysum - totalsum = the returned number is the missing element
         *
         *
